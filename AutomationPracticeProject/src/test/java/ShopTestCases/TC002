@@ -1,0 +1,6 @@
+Shop-Product Categories Functionality
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Click any of the product links available in the product category
+5) Now user can view only that particular product

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="helper.listener.RetryListener"></listener>
+		<listener class-name="helper.listener.ExtentListener"></listener>
+	</listeners>
+	<test name="Registration Sign in">
+		<classes>
+			<class name="testScripts.MyAccount.Registration.TC_001" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Registration with existing Emailid">
+		<classes>
+			<class name="testScripts.MyAccount.Registration.TC_002" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Registration with empty Emailid">
+		<classes>
+			<class name="testScripts.MyAccount.Registration.TC_003" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Registration with empty password">
+		<classes>
+			<class name="testScripts.MyAccount.Registration.TC_004" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Registration with empty Emailid And password">
+		<classes>
+			<class name="testScripts.MyAccount.Registration.TC_005" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="helper.listener.RetryListener"></listener>
+		<listener class-name="helper.listener.ExtentListener"></listener>
+	</listeners>
+	<test name="HomePage with 3 Sliders Only Test Case">
+		<classes>
+			<class name="testScripts.homePage.TC_001" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="HomePage with 3 Arrivals Only Test Case">
+		<classes>
+			<class name="testScripts.homePage.TC_002" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Home page - Images in Arrivals should navigate">
+		<classes>
+			<class name="testScripts.homePage.TC_003" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Home page - Arrivals-Images-Description">
+		<classes>
+			<class name="testScripts.homePage.TC_004" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Home page - Arrivals-Images-Reviews">
+		<classes>
+			<class name="testScripts.homePage.TC_005" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="HomePage - Arrivals - Images - Add to Basket">
+		<classes>
+			<class name="testScripts.homePage.TC_006" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Home-Arrivals-Add to Basket-Items">
+		<classes>
+			<class name="testScripts.homePage.TC_008" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Home-Arrivals-Add to Basket-Items-Coupon">
+		<classes>
+			<class name="testScripts.homePage.TC_009" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Home-Arrivals-Add to Basket-Items-Coupon value 450">
+		<classes>
+			<class name="testScripts.homePage.TC_010" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="Home-Arrivals-Add to Basket-Items-Remove book">
+		<classes>
+			<class name="testScripts.homePage.TC_011" />
+		</classes>
+	</test> <!-- Test -->	
+		<test name="Home-Arrivals-Add to Basket-Items-Add book">
+		<classes>
+			<class name="testScripts.homePage.TC_012" />
+		</classes>
+	</test> <!-- Test -->	
+		<test name="Home-Arrivals-Add to Basket-Items-Check-out-Book Final price">
+		<classes>
+			<class name="testScripts.homePage.TC_013" />
+		</classes>
+	</test> <!-- Test -->	
+		<test name="Home-Arrivals-Add to Basket-Items-Check-out-Total Sub-total condition">
+		<classes>
+			<class name="testScripts.homePage.TC_014" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="Home-Arrivals-Add to Basket-Items-Check-out-Payment Gateway">
+		<classes>
+			<class name="testScripts.homePage.TC_015" />
+		</classes>
+	</test> <!-- Test -->		
+</suite> <!-- Suite -->

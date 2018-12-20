@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="helper.listener.RetryListener"/>
+    <listener class-name="helper.listener.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="Login with incorrect username and password(failed)">
+    <classes>
+      <class name="testScripts.MyAccount.Login.TC_002">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="TC001_test"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testScripts.MyAccount.Login.TC_002 -->
+    </classes>
+  </test> <!-- Login with incorrect username and password(failed) -->
+  <test thread-count="5" name="Login with correct username and blank password(failed)">
+    <classes>
+      <class name="testScripts.MyAccount.Login.TC_003">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="TC001_test"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testScripts.MyAccount.Login.TC_003 -->
+    </classes>
+  </test> <!-- Login with correct username and blank password(failed) -->
+</suite> <!-- Failed suite [Suite] -->

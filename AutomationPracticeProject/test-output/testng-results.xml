@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-711.png'><img src='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-711.png'height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-239.png'><img src='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-239.png'height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\TC008_test_353_12-2018_15_12-793.png'><img src='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\TC008_test_353_12-2018_15_12-793.png'height='100' width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32828" started-at="2018-12-19T09:45:40Z" finished-at="2018-12-19T09:46:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32828" started-at="2018-12-19T09:45:40Z" finished-at="2018-12-19T09:46:12Z">
+      <class name="testScripts.shop.TC_009">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testScripts.shop.TC_009@7791a895]" name="beforeSuite" is-config="true" duration-ms="93" started-at="2018-12-19T09:45:40Z" finished-at="2018-12-19T09:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testScripts.shop.TC_009@7791a895]" name="beforeTest" is-config="true" duration-ms="3885" started-at="2018-12-19T09:45:40Z" finished-at="2018-12-19T09:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testScripts.shop.TC_009@7791a895]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-12-19T09:45:44Z" finished-at="2018-12-19T09:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.shop.TC_009@7791a895]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-12-19T09:45:44Z" finished-at="2018-12-19T09:45:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.shop.TC_009.TC008_test() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC008_test()[pri:0, instance:testScripts.shop.TC_009@7791a895]" name="TC008_test" duration-ms="27733" started-at="2018-12-19T09:45:44Z" description="Shop Sale Price and Actual Price Verification Functionality" finished-at="2018-12-19T09:46:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-711.png'><img src='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-711.png'height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-239.png'><img src='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-239.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC008_test -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.shop.TC_009@7791a895]" name="afterMethod" is-config="true" duration-ms="519" started-at="2018-12-19T09:46:11Z" finished-at="2018-12-19T09:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC008_test status=SUCCESS method=TC_009.TC008_test()[pri:0, instance:testScripts.shop.TC_009@7791a895] output=<a href='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-711.png'><img src='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\navigation_pages_353_12-2018_15_12-711.png'height='100' width='100'/></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\TC008_test_353_12-2018_15_12-793.png'><img src='E:\akash\eclipse\workspace\AutomationPracticeProject\src\main\resources\screenshot\TC008_test_353_12-2018_15_12-793.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScripts.shop.TC_009@7791a895]" name="afterTest" is-config="true" duration-ms="639" started-at="2018-12-19T09:46:12Z" finished-at="2018-12-19T09:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testScripts.shop.TC_009 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

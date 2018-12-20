@@ -1,0 +1,7 @@
+Shop - Filter by price Functionality
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Adjust the filter by price between 150 to 450 rps
+5) Now click on Filter button
+6) User can view books only between 150 to 450 rps price

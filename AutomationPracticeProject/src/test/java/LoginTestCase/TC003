@@ -1,0 +1,8 @@
+Login with correct username and blank password
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on My Account Menu
+4) Enter valid username in username textbox
+5) Now enter empty password in the password textbox
+6) Click on login button.
+7) Proper error must be displayed(ie Invalid password) and prompt to enter login again
