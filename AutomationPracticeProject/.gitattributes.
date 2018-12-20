@@ -1,1 +1,1 @@
-*.java   text diff=java eol=lf
+*.java linguist-vendored
