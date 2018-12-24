@@ -1,17 +1,19 @@
-2018-12-19 15:12:792 INFO  TestBase:131 - Driver is initialized
-2018-12-19 15:12:802 INFO  WaitHelper:36 - setImplicitWait has been set to : 120
-2018-12-19 15:12:819 INFO  WaitHelper:155 - Waiting for page to load: 100 seconds
-2018-12-19 15:12:835 INFO  WaitHelper:157 - Page is loaded
-2018-12-19 15:12:59 INFO  TestBase:70 - **************TC008_testStarted***************
-2018-12-19 15:12:681 INFO  TestBase:170 - Getting Application url...http://practice.automationtesting.in/
-2018-12-19 15:12:710 INFO  TestBase:163 - Capturing ui navigation screens.....
-2018-12-19 15:12:172 INFO  TestBase:153 - Screenshot has been captured
-2018-12-19 15:12:190 INFO  WaitHelper:147 - Waiting for Element: [[ChromeDriver: chrome on XP (6801964611571d11f38cc7eee18defb3)] -> xpath: //a[contains(text(),'Shop')]]for: 5 seconds
-2018-12-19 15:12:213 INFO  WaitHelper:150 - Element is visible now
-2018-12-19 15:12:239 INFO  TestBase:163 - Capturing ui navigation screens.....
-2018-12-19 15:12:623 INFO  TestBase:153 - Screenshot has been captured
-2018-12-19 15:12:623 INFO  DropDownHelper:21 - DropDown object is initialized
-2018-12-19 15:12:752 INFO  VerificationHelper:27 - Element is present?600.00
-2018-12-19 15:12:791 INFO  VerificationHelper:27 - Element is present?450.00
-2018-12-19 15:12:126 INFO  TestBase:153 - Screenshot has been captured
-2018-12-19 15:12:127 INFO  TestBase:86 - **************TC008_testFinished***************
+2018-12-24 15:12:476 INFO  TestBase:131 - Driver is initialized
+2018-12-24 15:12:484 INFO  WaitHelper:36 - setImplicitWait has been set to : 120
+2018-12-24 15:12:501 INFO  WaitHelper:155 - Waiting for page to load: 100 seconds
+2018-12-24 15:12:517 INFO  WaitHelper:157 - Page is loaded
+2018-12-24 15:12:684 INFO  TestBase:70 - **************TC006_testStarted***************
+2018-12-24 15:12:858 INFO  TestBase:170 - Getting Application url...http://practice.automationtesting.in/
+2018-12-24 15:12:878 INFO  TestBase:163 - Capturing ui navigation screens.....
+2018-12-24 15:12:365 INFO  TestBase:153 - Screenshot has been captured
+2018-12-24 15:12:381 INFO  WaitHelper:147 - Waiting for Element: [[ChromeDriver: chrome on XP (09d01ac65687bc002ffaaf9a5526b37d)] -> xpath: //a[contains(text(),'Shop')]]for: 5 seconds
+2018-12-24 15:12:406 INFO  WaitHelper:150 - Element is visible now
+2018-12-24 15:12:515 INFO  TestBase:163 - Capturing ui navigation screens.....
+2018-12-24 15:12:802 INFO  TestBase:153 - Screenshot has been captured
+2018-12-24 15:12:740 INFO  AssertionHelper:19 - Verifing text
+2018-12-24 15:12:743 INFO  TestBase:163 - Capturing ui navigation screens.....
+2018-12-24 15:12:34 INFO  TestBase:153 - Screenshot has been captured
+2018-12-24 15:12:785 INFO  TestBase:163 - Capturing ui navigation screens.....
+2018-12-24 15:12:106 INFO  TestBase:153 - Screenshot has been captured
+2018-12-24 15:12:209 INFO  TestBase:153 - Screenshot has been captured
+2018-12-24 15:12:209 INFO  TestBase:86 - **************TC006_testFinished***************

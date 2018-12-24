@@ -3,11 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rough.Rough">
+      <class name="testScripts.MyAccount.TC_007">
         <methods>
-          <include name="check"/>
+          <include name="beforeClass"/>
+          <include name="TC006_test"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- rough.Rough -->
+      </class> <!-- testScripts.MyAccount.TC_007 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
